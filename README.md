@@ -33,14 +33,15 @@ javac *.java
 java Main
 ```
 
-## Basic gameplay commands
+## Basic gameplay commands (not all included below)
 
-The exact commands depend on the game's `Parser` implementation, but common commands you can try:
-- `look` — see the current room description
+- `look` — see the current room items
 - `go <direction>` — move to a room in the given direction (e.g., `go north`)
-- `take <item>` — pick up an item
+- `back` - move to previous room
+- `pickup <item>` — pick up an item (gain its weight)
+- `drop <item>` - drop an item (lose its weight)
 - `inventory` — show carried items
-- `use <item>` — use an item if applicable
+- `map` - shows the map image
 - `quit` — end the game
 - `help` - shows all commands including special ones (cut, rip, etc)
 
